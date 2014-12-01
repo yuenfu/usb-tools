@@ -19,7 +19,7 @@
 # along with USB Tools. If not, see <http://www.gnu.org/licenses/>.
 ##
 
-CROSS_COMPILE = arm-linux-
+#CROSS_COMPILE = arm-linux-
 CC = gcc
 GENERIC_CFLAGS = -Wall -O3 -g -finline-functions -fno-strict-aliasing \
 		 -D_GNU_SOURCE
